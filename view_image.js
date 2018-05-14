@@ -10,7 +10,7 @@ imgPack.onclick = function () {
     imgDiv.setAttribute("onclick", "closeImage(this)");
     imgDiv.innerHTML = html;
     document.getElementsByTagName("body")[0].appendChild(imgDiv);
-    //   document.getElementsByTagName("body")[0].style = 'overflow:hidden;';
+    document.getElementsByTagName("body")[0].style = 'overflow:hidden;';
 }
 
 function closeImage(ths) {
