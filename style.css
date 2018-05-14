@@ -1,0 +1,20 @@
+.div-box {
+    max-width: 800px;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+.check-original-image {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,0,0);
+    transform: translate3d(-50%,0,0);
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,.4);
+    font-size: 15px;
+    color: #fff;
+    z-index: 10001;
+    text-decoration: none;
+}
